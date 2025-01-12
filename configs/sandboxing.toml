@@ -1,3 +1,3 @@
 cargo = [
-    # "--git https://github.com/jullanggit/bubblewrapped.git bubblewrapped"
+  # "--git https://github.com/jullanggit/bubblewrapped.git bubblewrapped"
 ]

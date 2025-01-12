@@ -1,4 +1,4 @@
-system = [
+paru = [
   "coz-git",
   # "heaptrack",
   # "kcachegrind",

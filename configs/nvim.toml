@@ -1,9 +1,8 @@
-cargo = [
-  "--git https://github.com/Feel-ix-343/markdown-oxide.git markdown-oxide",
-]
+cargo = "--git https://github.com/Feel-ix-343/markdown-oxide.git markdown-oxide"
 
-system = [
-  "stylua", # conform.nvim
+
+paru = [
+  "stylua",              # conform.nvim
   "lua-language-server",
-  "python-pylatexenc", # render-markdown.nvim
+  "python-pylatexenc",   # render-markdown.nvim
 ]

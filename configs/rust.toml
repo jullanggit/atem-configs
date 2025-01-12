@@ -1,46 +1,38 @@
-system = [
-    "mold",
-    "rustup",
-    "rust-analyzer",
-]
+paru = ["mold", "rustup", "rust-analyzer"]
 
 cargo = [
-    "bacon",
-    "cargo-audit",
-    "cargo-bloat",
-    "cargo-cache",
-    "cargo-deny",
-    "cargo-expand",
-    "cargo-fuzz",
-    "cargo-geiger",
-    "cargo-insta",
-    "cargo-llvm-lines",
-    "cargo-modules",
-    "cargo-nextest",
-    "cargo-pgo",
-    "-F disasm,bright-color cargo-show-asm",
-    "cargo-sweep",
-    "cargo-update",
-    "cargo-wizard",
-    "gitoxide",
-    "rustfilt",
+  "bacon",
+  "cargo-audit",
+  "cargo-bloat",
+  "cargo-cache",
+  "cargo-deny",
+  "cargo-expand",
+  "cargo-fuzz",
+  "cargo-geiger",
+  "cargo-insta",
+  "cargo-llvm-lines",
+  "cargo-modules",
+  "cargo-nextest",
+  "cargo-pgo",
+  "-F disasm,bright-color cargo-show-asm",
+  "cargo-sweep",
+  "cargo-update",
+  "cargo-wizard",
+  "gitoxide",
+  "rustfilt",
 ]
 
-rustup_toolchain = [
-    "nightly",
-]
+rustup_toolchain = "nightly"
 
 rustup_component = [
-    "cargo",
-    "clippy",
-    "rust-docs",
-    "rust-src",
-    "rust-std",
-    "rustc",
-    "rustc-codegen-cranelift",
-    "rustfmt",
+  "cargo",
+  "clippy",
+  "rust-docs",
+  "rust-src",
+  "rust-std",
+  "rustc",
+  "rustc-codegen-cranelift",
+  "rustfmt",
 ]
 
-files = [
-    "/home/julius/.cargo/config.toml",
-]
+files = ["/home/julius/.cargo/config.toml"]

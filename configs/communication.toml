@@ -1,5 +1,1 @@
-system = [
-    "signal-desktop",
-    "teams",
-    "whatsapp-for-linux-bin",
-]
+paru = ["signal-desktop", "teams", "whatsapp-for-linux-bin"]

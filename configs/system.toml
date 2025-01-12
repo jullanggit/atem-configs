@@ -1,45 +1,41 @@
-system = [
-    "arch-install-scripts",
-    "base",
-    "base-devel",
-    "cronie",
-    "linux",
-    "linux-firmware",
-    "linux-headers",
-    "logrotate",
-    "man-db",
-    "man-pages",
-    "mkinitcpio",
-    "networkmanager",
-    "openssh",
-    "pavucontrol",
-    "power-profiles-daemon",
-    "reflector",
-    "update-grub",
-    "usbutils",
-    "xclip",
+paru = [
+  "arch-install-scripts",
+  "base",
+  "base-devel",
+  "cronie",
+  "linux",
+  "linux-firmware",
+  "linux-headers",
+  "logrotate",
+  "man-db",
+  "man-pages",
+  "mkinitcpio",
+  "networkmanager",
+  "openssh",
+  "pavucontrol",
+  "power-profiles-daemon",
+  "reflector",
+  "update-grub",
+  "usbutils",
+  "xclip",
 ]
 
 cargo = [
-    "--git https://gitlab.com/jullanggit/rebos.git rebos",
-    "-F git --git https://github.com/Morganamilo/paru.git paru",
-    "--git https://github.com/jullanggit/dots dots"
+  "--git https://gitlab.com/jullanggit/rebos.git rebos",
+  "-F git --git https://github.com/Morganamilo/paru.git paru",
+  "--git https://github.com/jullanggit/dots dots",
 ]
 
-service = [
-    "cronie",
-    "sshd",
-    "NetworkManager"
-]
+service = ["cronie", "sshd", "NetworkManager"]
 
 files = [
-    "/etc/pacman.conf",
-    "/etc/pacman.d/mirrorlist",
-    "/etc/pacman.d/cachyos-mirrorlist",
-    "/etc/pacman.d/cachyos-v3-mirrorlist",
-    "/etc/systemd/system/resolved.conf",
-    "/etc/systemd/system/macchanger@.service",
-    "{hostname}/home/julius/.ssh",
-    "/home/julius/.config/paru/paru.conf",
-    "/home/julius/.cache/paru/diff/rebos_my_url.patch",
+  "/etc/pacman.conf",
+  "/etc/pacman.d/mirrorlist",
+  "/etc/pacman.d/cachyos-mirrorlist",
+  "/etc/pacman.d/cachyos-v3-mirrorlist",
+  "/etc/systemd/system/resolved.conf",
+  "/etc/systemd/system/macchanger@.service",
+  "{hostname}/home/julius/.ssh",
+  "/home/julius/.config/paru/paru.conf",
+  "/home/julius/.cache/paru/diff/rebos_my_url.patch",
 ]

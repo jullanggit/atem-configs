@@ -1,5 +1,1 @@
-system = [
-    "arch-wiki-docs",
-    "arch-wiki-lite",
-    "wikiman",
-]
+paru = ["arch-wiki-docs", "arch-wiki-lite", "wikiman"]

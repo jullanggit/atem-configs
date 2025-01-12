@@ -1,27 +1,14 @@
-imports = [
-    "common",
-    "filesystems/bcachefs",
-]
+imports = ["common", "filesystems/bcachefs"]
 
 # Packages to be installed via the native package manager.
-system = [
-    "intel-ucode",
-    "spicetify-cli",
-    "spotify",
-    "vial-appimage",
-    "zed-git",
-]
+paru = ["intel-ucode", "spicetify-cli", "spotify", "vial-appimage", "zed-git"]
 
-cargo = [
-    "-F tui,mount,mimalloc --git https://github.com/rustic-rs/rustic.git rustic-rs"
-]
+cargo = "-F tui,mount,mimalloc --git https://github.com/rustic-rs/rustic.git rustic-rs"
 
-service = [
-    "macchanger@enp3s0",
-]
+service = "macchanger@enp3s0"
 
 files = [
-    "{hostname}/etc/default/grub",
-    "{hostname}/etc/grub.d/40_custom",
-    "{hostname}/etc/modprobe.d/r8169.conf",
+  "{hostname}/etc/default/grub",
+  "{hostname}/etc/grub.d/40_custom",
+  "{hostname}/etc/modprobe.d/r8169.conf",
 ]

@@ -1,15 +1,12 @@
-system = [
-    "lutris",
-    "steam-native-runtime",
-]
+paru = ["lutris", "steam-native-runtime"]
 
 files = [
-    "/home/julius/.games",
-    # Lutris
-    "/home/julius/.config/lutris",
-    "/home/julius/.local/share/lutris/pga.db",
-    # Save files
-    "/home/julius/.config/unity3d",
-    "/home/julius/.local/share/Balatro",
-    "/home/julius/.local/share/Celeste",
+  "/home/julius/.games",
+  # Lutris
+  "/home/julius/.config/lutris",
+  "/home/julius/.local/share/lutris/pga.db",
+  # Save files
+  "/home/julius/.config/unity3d",
+  "/home/julius/.local/share/Balatro",
+  "/home/julius/.local/share/Celeste",
 ]

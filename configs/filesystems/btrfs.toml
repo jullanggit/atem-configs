@@ -1,14 +1,3 @@
-[managers.system]
-items = [
-    "bees",
-    "btrfs-progs",
-    "snapper",
-    "snap-pac",
-    "grub",
-    "grub-btrfs"
-]
+paru = ["bees", "btrfs-progs", "snapper", "snap-pac", "grub", "grub-btrfs"]
 
-[managers.files]
-items = [
-    "btrfs/etc/snapper/configs",
-]
+files = ["btrfs/etc/snapper/configs"]
