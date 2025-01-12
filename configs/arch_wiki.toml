@@ -1,0 +1,5 @@
+system = [
+    "arch-wiki-docs",
+    "arch-wiki-lite",
+    "wikiman",
+]

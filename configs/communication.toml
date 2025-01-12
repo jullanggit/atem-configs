@@ -1,0 +1,5 @@
+system = [
+    "signal-desktop",
+    "teams",
+    "whatsapp-for-linux-bin",
+]

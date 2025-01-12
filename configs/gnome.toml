@@ -1,0 +1,47 @@
+system = [
+    "authenticator",
+    "baobab",
+    "dconf-editor",
+    "evince",
+    "extension-manager",
+    "file-roller",
+    "fragments",
+    "gdm",
+    "gnome-backgrounds",
+    "gnome-calculator",
+    "gnome-characters",
+    "gnome-clocks",
+    "gnome-color-manager",
+    "gnome-console",
+    "gnome-control-center",
+    "gnome-disk-utility",
+    "gnome-keyring",
+    "gnome-logs",
+    "gnome-menus",
+    "gnome-power-manager",
+    "gnome-session",
+    "gnome-session-properties",
+    "gnome-settings-daemon",
+    "gnome-shell",
+    "gnome-shell-extensions",
+    "gnome-system-monitor",
+    "gnome-tweaks",
+    "gnome-usage",
+    "gnumeric",
+    "loupe",
+    "nautilus",
+    "sushi",
+    "tecla",
+    "tracker3-miners",
+    "totem",
+]
+
+service = [
+    "gdm"
+]
+
+files = [
+    "{hostname}/home/julius/.config/dconf",
+    "/home/julius/.local/share/authenticator",
+    "/home/julius/.local/share/gnome-shell/extensions",
+]

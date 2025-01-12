@@ -1,0 +1,28 @@
+imports = [
+    "common",
+    "filesystems/btrfs",
+]
+
+system = [
+    "amd-ucode",
+    "amdgpu_top-bin",
+    "amdvlk",
+    "bindfs",
+    "cups",
+    "foliate",
+    "losslesscut-git",
+    # "opencl-amd",
+    "sshfs",
+    "usbguard",
+    "wireless_tools",
+    "xf86-video-amdgpu",
+    "zed",
+]
+
+service = [
+    "macchanger@wlp2s0",
+]
+
+service = [
+    "cups",
+]

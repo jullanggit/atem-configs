@@ -1,0 +1,8 @@
+system = [
+    "nmap",
+    "vulscan",
+]
+
+files = [
+    "/home/julius/Hacking",
+]

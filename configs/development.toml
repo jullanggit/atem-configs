@@ -1,0 +1,20 @@
+system = [
+    "git",
+    "lazygit",
+    "neovim",
+]
+cargo = [
+    "dprint",
+    "jj-cli",
+    "--locked lazyjj",
+    "tokei",
+    "typos-cli",
+]
+
+files = [
+    "/home/julius/Code",
+    "/home/julius/.config/nvim",
+    "/home/julius/.config/jj/config.toml",
+    "/home/julius/.config/zed",
+    "/home/julius/.gitconfig",
+]

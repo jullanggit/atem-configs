@@ -1,0 +1,48 @@
+imports = [
+    # "arch_wiki",
+    "communication",
+    "custom_linux",
+    "development",
+    "filesystems",
+    "games",
+    "gnome",
+    "hacking",
+    "nvim",
+    "profiling",
+    "rust",
+    "sandboxing",
+    "system",
+    "terminal",
+    "zig",
+]
+
+system = [
+    # "aseprite",
+    "davfs2",
+    "firefox",
+    "keepassxc",
+    "macchanger",
+    "obsidian",
+    "paruz",
+    "snap-pac",
+    "syncthing",
+    "torbrowser-launcher",
+    "vlc",
+    "xournalpp",
+]
+
+service = [
+    "syncthing@julius"
+]
+
+files = [
+    "/etc/rustic",
+    "/etc/locale.gen",
+    "/etc/ssh/sshd_config",
+    "/home/julius/Documents",
+    "/home/julius/KeePassXcDataBase",
+    "/home/julius/Obsidian",
+    "/home/julius/packages",
+    "/home/julius/spotility",
+    "/usr/lib/systemd/system/syncthing@.service"
+]

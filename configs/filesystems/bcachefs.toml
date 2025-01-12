@@ -1,0 +1,12 @@
+[managers.system]
+items = [
+    "snapper_bcachefs",
+    "grub-git",
+]
+
+[managers.files]
+items = [
+    "bcachefs/etc/mkinitcpio.conf",
+    "bcachefs/etc/snapper/configs",
+    "bcachefs/home/julius/.cache/paru/diff/grub-git.diff.safe",
+]

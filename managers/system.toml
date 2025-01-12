@@ -1,0 +1,6 @@
+add = "paru -S --needed #:?"
+remove = "paru -Runs #:? || true"
+upgrade = "paru -Su"
+list = "paru -Qeq"
+
+single_arg = false
