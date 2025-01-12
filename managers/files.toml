@@ -1,0 +1,4 @@
+add = "dots add #:?"
+remove = "dots remove #:?"
+
+single_arg = true

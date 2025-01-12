@@ -1,0 +1,3 @@
+[submodule "managers"]
+	path = managers
+	url = git@github.com:jullanggit/meta-managers.git
