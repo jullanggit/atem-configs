@@ -1,5 +1,0 @@
-add = "rustup component add #:?"
-remove = "rustup component remove #:?"
-list = "rustup component list --installed"
-
-single_arg = false

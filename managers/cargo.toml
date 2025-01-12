@@ -1,6 +1,0 @@
-add = "cargo install --force --profile fast_run #:? && cargo install-update-config --install-prereleases $(echo #:? | rev | cut -d ' ' -f 1 | rev)"
-remove = "cargo uninstall #:? || true"
-upgrade = "cargo install-update -ag -- --profile fast_run"
-list = "cargo install --list | rg '^\\S+' -o" # Double \ because of toml
-
-single_arg = false

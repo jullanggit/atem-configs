@@ -1,5 +1,0 @@
-add = "sudo systemctl enable #:? --now"
-remove = "sudo systemctl disable #:? --now"
-list = '''systemctl list-unit-files --state=enabled --no-pager --no-legend | awk '$3 == "disabled" {gsub(/\.service$/, "", $1); print $1}' '''
-
-single_arg = false
