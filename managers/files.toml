@@ -1,4 +1,5 @@
 add = "dots add #:?"
 remove = "dots remove #:?"
+list = "dots list"
 
 single_arg = true

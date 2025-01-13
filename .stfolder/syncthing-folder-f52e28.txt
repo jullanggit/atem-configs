@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: 7pgev-vnkmk
+created: 2025-01-12T22:53:11+01:00
