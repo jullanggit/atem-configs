@@ -1,6 +1,4 @@
-add = "rustup toolchain install #:?"
-remove = "rustup toolchain uninstall #:?"
+add = "rustup toolchain install <items>"
+remove = "rustup toolchain uninstall <items>"
 upgrade = "rustup update"
 list = "rustup toolchain list | awk '{print $1}'"
-
-single_arg = false

@@ -1,6 +1,4 @@
-add = "paru -S --needed #:?"
-remove = "paru -Runs #:? || true"
+add = "paru -S --needed <items>"
+remove = "paru -Runs <items> || true"
 upgrade = "paru -Su"
 list = "paru -Qeq"
-
-single_arg = false
