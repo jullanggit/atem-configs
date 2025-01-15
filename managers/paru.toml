@@ -1,4 +1,4 @@
 add = "paru -S --needed <items>"
 remove = "paru -Runs <items> || true"
-upgrade = "paru -Su"
+upgrade = "paru -Syu"
 list = "paru -Qeq"

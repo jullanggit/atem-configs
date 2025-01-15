@@ -1,6 +1,6 @@
 files
 paru
-rustup-component
-rustup-toolchain
+rustup_component
+rustup_toolchain
 cargo
 service
