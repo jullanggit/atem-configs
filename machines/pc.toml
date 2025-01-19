@@ -1,4 +1,4 @@
-imports = ["common", "filesystems/bcachefs"]
+imports = ["common", "filesystems/bcachefs", "nvidia"]
 
 # Packages to be installed via the native package manager.
 paru = ["intel-ucode", "spicetify-cli", "spotify", "vial-appimage", "zed-git"]
