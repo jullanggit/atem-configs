@@ -1,4 +1,4 @@
 add = "rustup toolchain install <items>"
 remove = "rustup toolchain uninstall <items>"
 upgrade = "rustup update"
-list = "rustup toolchain list | awk '{print $1}'"
+list = "rustup toolchain list | awk -F'-x86_64-unknown-linux-gnu' '{print $1}'"
