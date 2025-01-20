@@ -1,4 +1,4 @@
-paru = ["git", "lazygit", "neovim"]
+paru = ["git", "lazygit", "libgit2", "neovim"]
 cargo = ["dprint", "jj-cli", "--locked lazyjj", "tokei", "typos-cli"]
 
 files = [
