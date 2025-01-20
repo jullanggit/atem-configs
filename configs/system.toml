@@ -34,6 +34,7 @@ service = [
   "NetworkManager",
   "NetworkManager-dispatcher",
   "NetworkManager-wait-online",
+  "shut-down-at-night.timer",
   "sshd",
 ]
 
@@ -44,6 +45,8 @@ files = [
   "/etc/pacman.d/cachyos-v3-mirrorlist",
   "/etc/systemd/system/resolved.conf",
   "/etc/systemd/system/macchanger@.service",
+  "/etc/systemd/system/shut-down-at-night.service",
+  "/etc/systemd/system/shut-down-at-night.timer",
   "{hostname}/home/julius/.ssh",
   "/home/julius/.config/paru/paru.conf",
   "/home/julius/.cache/paru/diff/rebos_my_url.patch",
