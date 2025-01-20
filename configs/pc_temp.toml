@@ -1,0 +1,7 @@
+paru = [
+  "opencl-nvidia",
+  "lib32-opencl-nvidia",
+  "vulkan-nouveau",
+  "lib32-vulkan-nouveau",
+  "nouveau-fw",
+]
