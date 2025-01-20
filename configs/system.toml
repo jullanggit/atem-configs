@@ -27,7 +27,12 @@ cargo = [
   "-F git --git https://github.com/Morganamilo/paru.git paru",
 ]
 
-service = ["cronie", "sshd", "NetworkManager"]
+service = [
+  "cronie",
+  "NetworkManager",
+  "NetworkManager-dispatcher",
+  "NetworkManager-wait-online",
+  "sshd",
 
 files = [
   "/etc/pacman.conf",
