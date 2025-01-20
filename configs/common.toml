@@ -40,7 +40,6 @@ files = [
   "/home/julius/Documents",
   "/home/julius/KeePassXcDatabase",
   "/home/julius/Obsidian",
-  "/home/julius/packages",
   "/home/julius/spotility",
   "/usr/lib/systemd/system/syncthing@.service",
 ]
