@@ -16,4 +16,9 @@ paru = [
   "zed",
 ]
 
-service = ["macchanger@wlp2s0", "cups"]
+service = [
+  "cups",
+  "cups.path",
+  "cups.socket",
+  "macchanger@wlp2s0",
+]
