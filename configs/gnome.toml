@@ -15,13 +15,10 @@ paru = [
   "gnome-console",
   "gnome-control-center",
   "gnome-disk-utility",
-  "gnome-keyring",
   "gnome-logs",
   "gnome-menus",
   "gnome-power-manager",
-  "gnome-session",
   "gnome-session-properties",
-  "gnome-settings-daemon",
   "gnome-shell",
   "gnome-shell-extensions",
   "gnome-system-monitor",
@@ -31,8 +28,6 @@ paru = [
   "loupe",
   "nautilus",
   "sushi",
-  "tecla",
-  "tracker3-miners",
   "totem",
 ]
 
