@@ -3,12 +3,14 @@ paru = [
   "fastfetch",
   "fish",
   "fisher",
+  "helix",
   "shlorem",
   "starship",
   "ttf-hack",
   "ttf-hack-nerd",
   "vim",
   "wezterm",
+  "wl-clipboard",
 ]
 
 cargo = [
