@@ -27,6 +27,8 @@ rustup_toolchain = "nightly"
 rustup_component = [
   "cargo",
   "clippy",
+  "llvm-tools",
+  "miri",
   "rust-docs",
   "rust-src",
   "rust-std",
