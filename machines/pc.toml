@@ -1,7 +1,21 @@
-imports = ["common", "filesystems/bcachefs", "nvidia"]
+imports = [
+  "common",
+  "filesystems/bcachefs",
+  "nvidia",
+  "pc_temp",
+  "filesystems/zfs",
+]
 
 # Packages to be installed via the native package manager.
-paru = ["intel-ucode", "spicetify-cli", "spotify", "vial-appimage", "zed-git"]
+paru = [
+  "ethtool",
+  "intel-ucode",
+  "r8125-dkms",
+  "spicetify-cli",
+  "spotify",
+  "vial-appimage",
+  "zed-git",
+]
 
 cargo = "-F tui,mount,mimalloc --git https://github.com/rustic-rs/rustic.git rustic-rs"
 
