@@ -8,6 +8,7 @@ imports = [
   "gnome",
   "hacking",
   "latex",
+  "linux-custom",
   "profiling",
   "rust",
   "sandboxing",
