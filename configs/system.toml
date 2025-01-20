@@ -28,11 +28,14 @@ cargo = [
 ]
 
 service = [
+  "avahi-daemon",
+  "avahi-daemon.socket",
   "cronie",
   "NetworkManager",
   "NetworkManager-dispatcher",
   "NetworkManager-wait-online",
   "sshd",
+]
 
 files = [
   "/etc/pacman.conf",
