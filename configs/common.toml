@@ -7,7 +7,6 @@ imports = [
   "games",
   "gnome",
   "hacking",
-  "nvim",
   "profiling",
   "rust",
   "sandboxing",
