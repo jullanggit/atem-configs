@@ -48,6 +48,7 @@ files = [
   "/etc/systemd/system/shut-down-at-night.service",
   "/etc/systemd/system/shut-down-at-night.timer",
   "{hostname}/home/julius/.ssh",
+  "/home/julius/.config/dots",
   "/home/julius/.config/paru/paru.conf",
   "/home/julius/.cache/paru/diff/rebos_my_url.patch",
 ]
