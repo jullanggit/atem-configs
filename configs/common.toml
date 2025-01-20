@@ -9,6 +9,7 @@ imports = [
   "hacking",
   "latex",
   "linux-custom",
+  "lua",
   "profiling",
   "rust",
   "sandboxing",
