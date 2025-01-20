@@ -1,9 +1,10 @@
+imports = ["cachyos"]
+
 paru = [
   "arch-install-scripts",
   "base",
   "base-devel",
   "cronie",
-  "linux",
   "linux-firmware",
   "linux-headers",
   "logrotate",
@@ -41,8 +42,6 @@ service = [
 files = [
   "/etc/pacman.conf",
   "/etc/pacman.d/mirrorlist",
-  "/etc/pacman.d/cachyos-mirrorlist",
-  "/etc/pacman.d/cachyos-v3-mirrorlist",
   "/etc/systemd/resolved.conf",
   "/etc/systemd/system/macchanger@.service",
   "/etc/systemd/system/shut-down-at-night.service",

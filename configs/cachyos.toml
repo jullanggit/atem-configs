@@ -1,0 +1,6 @@
+paru = ["cachyos-keyring", "chwd", "linux-cachyos", "linux-cachyos-headers"]
+
+files = [
+  "/etc/pacman.d/cachyos-mirrorlist",
+  "/etc/pacman.d/cachyos-v3-mirrorlist",
+]
