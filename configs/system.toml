@@ -43,7 +43,7 @@ files = [
   "/etc/pacman.d/mirrorlist",
   "/etc/pacman.d/cachyos-mirrorlist",
   "/etc/pacman.d/cachyos-v3-mirrorlist",
-  "/etc/systemd/system/resolved.conf",
+  "/etc/systemd/resolved.conf",
   "/etc/systemd/system/macchanger@.service",
   "/etc/systemd/system/shut-down-at-night.service",
   "/etc/systemd/system/shut-down-at-night.timer",
