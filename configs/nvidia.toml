@@ -1,1 +1,3 @@
+paru = ["libva-nvidia-driver", "linux-cachyos-nvidia-open"]
+
 service = ["nvidia-resume", "nvidia-suspend", "nvidia-hibernate"]
