@@ -17,8 +17,11 @@ paru = [
 ]
 
 service = [
+  "bluetooth",
   "cups",
   "cups.path",
   "cups.socket",
+  "evremap",
   "macchanger@wlp2s0",
+  "usbguard",
 ]
