@@ -38,7 +38,7 @@ files = [
   "/etc/locale.gen",
   "/etc/ssh/sshd_config",
   "/home/julius/Documents",
-  "/home/julius/KeePassXcDataBase",
+  "/home/julius/KeePassXcDatabase",
   "/home/julius/Obsidian",
   "/home/julius/packages",
   "/home/julius/spotility",
