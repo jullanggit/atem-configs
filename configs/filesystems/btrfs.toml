@@ -1,3 +1,5 @@
 paru = ["bees", "btrfs-progs", "snapper", "snap-pac", "grub", "grub-btrfs"]
 
 files = ["btrfs/etc/snapper/configs"]
+
+service = "snapper-timeline.timer"
