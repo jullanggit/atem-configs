@@ -9,6 +9,7 @@ paru = [
   "foliate",
   "losslesscut-git",
   # "opencl-amd",
+  "snap-pac",
   "sshfs",
   "usbguard",
   "wireless_tools",
