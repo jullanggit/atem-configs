@@ -16,6 +16,7 @@ imports = [
   "system",
   "temp",
   "terminal",
+  "wayland",
   "zig",
 ]
 
