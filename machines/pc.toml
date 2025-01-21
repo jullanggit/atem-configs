@@ -12,7 +12,6 @@ paru = [
   "intel-ucode",
   "r8125-dkms",
   "spicetify-cli",
-  "spotify",
   "vial-appimage",
   "zed-git",
 ]

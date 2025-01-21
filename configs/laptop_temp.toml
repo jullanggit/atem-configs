@@ -1,0 +1,9 @@
+paru = [
+  "gvfs-smb",
+  "ttf-nerd-fonts-symbols-mono",
+  "opencl-rusticl-mesa",
+  "lib32-opencl-rusticl-mesa",
+  "cachyos-cli-installer-new",
+  "evtest",
+  "chromium",
+]

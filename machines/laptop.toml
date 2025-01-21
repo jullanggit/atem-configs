@@ -1,4 +1,4 @@
-imports = ["common", "filesystems/btrfs"]
+imports = ["common", "filesystems/btrfs", "laptop_temp"]
 
 paru = [
   "amd-ucode",
@@ -6,6 +6,7 @@ paru = [
   "amdvlk",
   "bindfs",
   "cups",
+  "evremap-git",
   "foliate",
   "losslesscut-git",
   # "opencl-amd",
