@@ -5,6 +5,7 @@ files = [
   # Lutris
   "/home/julius/.config/lutris",
   "/home/julius/.local/share/lutris/pga.db",
+  "/home/julius/.local/share/yuzu",
   # Save files
   "/home/julius/.config/unity3d",
   "/home/julius/.local/share/Balatro",
