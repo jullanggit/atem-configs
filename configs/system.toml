@@ -27,7 +27,6 @@ cargo = [
   "--git https://github.com/jullanggit/cargo_install_reconstructor cargo_install_reconstructor",
   "--git https://github.com/jullanggit/dots dots",
   "--git https://github.com/jullanggit/meta meta",
-  "--git https://gitlab.com/jullanggit/rebos rebos",
   "-F git --git https://github.com/Morganamilo/paru paru",
 ]
 
@@ -52,5 +51,4 @@ files = [
   "{hostname}/home/julius/.ssh",
   "/home/julius/.config/dots",
   "/home/julius/.config/paru/paru.conf",
-  "/home/julius/.cache/paru/diff/rebos_my_url.patch",
 ]
