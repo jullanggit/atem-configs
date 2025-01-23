@@ -28,5 +28,7 @@ files = [
   "/home/julius/.wezterm.lua",
   "/home/julius/.config/fastfetch/config.jsonc",
   "/home/julius/.config/fish",
+  "/home/julius/.config/helix",
+  "/home/julius/.config/starship.toml",
   "/root/.config/fish",
 ]
