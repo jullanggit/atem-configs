@@ -26,8 +26,8 @@ paru = [
 cargo = [
   "--git https://github.com/jullanggit/dots dots",
   "--git https://github.com/jullanggit/meta meta",
-  "--git https://gitlab.com/jullanggit/rebos.git rebos",
-  "-F git --git https://github.com/Morganamilo/paru.git paru",
+  "--git https://gitlab.com/jullanggit/rebos rebos",
+  "-F git --git https://github.com/Morganamilo/paru paru",
 ]
 
 service = [
