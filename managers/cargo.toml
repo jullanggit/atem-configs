@@ -1,4 +1,8 @@
 add = "cargo install --force --profile fast_run <item> && cargo install-update-config --install-prereleases $(echo <item> | rev | cut -d ' ' -f 1 | rev)"
-remove = "cargo uninstall <items> || true"
+remove = "cargo uninstall (echo -n '<items>' | rev | cut -d ' ' -f 1 | rev) || true"
 upgrade = "cargo install-update -ag -- --profile fast_run"
 list = "cargo_install_reconstructor"                                                                                                                      # Double \ because of toml
+
+# Changed options are treated as seperate items, so adding and then removing them would result in the program being uninstalled
+remove_then_add = true
+items_separator = "\n"
