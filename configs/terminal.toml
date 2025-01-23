@@ -18,7 +18,6 @@ cargo = [
   "-F clipboard broot",
   "eza",
   "--git https://github.com/jullanggit/ferris_if_rust ferris_if_rust",
-  "rioterm",
   "ripgrep",
   "repgrep",
   "uwuify",
