@@ -1,1 +1,1 @@
-paru = ["niri", "mdformat", "uutils-coreutils"]
+paru = ["niri", "mdformat"]

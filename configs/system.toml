@@ -4,6 +4,7 @@ paru = [
   "arch-install-scripts",
   "base",
   "base-devel",
+  "coreutils-hybrid-git",
   "cronie",
   "linux-firmware",
   "linux-headers",
