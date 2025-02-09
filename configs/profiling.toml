@@ -1,5 +1,5 @@
 paru = [
-  "coz-git",
+  # "coz-git",
   # "heaptrack",
   # "kcachegrind",
   # "samply",
