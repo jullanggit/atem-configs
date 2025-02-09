@@ -1,4 +1,12 @@
-paru = ["lutris", "steam-native-runtime"]
+paru = [
+  "lutris",
+  "steam-native-runtime",
+  # Hollow knight
+  "lumafly",
+  "mono",
+  # Ror2
+  "r2modman-bin",
+]
 
 files = [
   "/home/julius/.games",
