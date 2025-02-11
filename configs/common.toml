@@ -45,5 +45,6 @@ files = [
   "/home/julius/KeePassXcDatabase",
   "/home/julius/Obsidian",
   "/home/julius/spotility",
-  "/usr/lib/systemd/system/syncthing@.service",
 ]
+
+files_copy = ["/usr/lib/systemd/system/syncthing@.service"]

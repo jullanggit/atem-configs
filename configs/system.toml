@@ -46,10 +46,13 @@ files = [
   "/etc/pacman.conf",
   "/etc/pacman.d/mirrorlist",
   "/etc/systemd/resolved.conf",
-  "/etc/systemd/system/macchanger@.service",
-  "/etc/systemd/system/shut-down-at-night.service",
-  "/etc/systemd/system/shut-down-at-night.timer",
   "{hostname}/home/julius/.ssh",
   "/home/julius/.config/dots",
   "/home/julius/.config/paru/paru.conf",
+]
+
+files_copy = [
+  "/etc/systemd/system/macchanger@.service",
+  "/etc/systemd/system/shut-down-at-night.service",
+  "/etc/systemd/system/shut-down-at-night.timer",
 ]
