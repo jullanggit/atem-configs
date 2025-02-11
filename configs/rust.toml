@@ -14,6 +14,7 @@ cargo = [
   "cargo-modules",
   "cargo-nextest",
   "cargo-pgo",
+  "--no-default-features cargo-release",
   "-F bright-color,disasm cargo-show-asm",
   "cargo-sweep",
   "cargo-update",

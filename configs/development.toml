@@ -1,6 +1,6 @@
 paru = ["git", "lazygit", "libgit2", "neovim", "perf"]
 
-cargo = ["add-license", "dprint", "jj-cli", "tokei", "typos-cli"]
+cargo = ["add-license", "dprint", "git-cliff", "jj-cli", "tokei", "typos-cli"]
 
 files = [
   "/home/julius/Code",
