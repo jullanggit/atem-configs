@@ -16,7 +16,7 @@ paru = [
   "zed-git",
 ]
 
-cargo = "-F mount,mimalloc --git https://github.com/rustic-rs/rustic rustic-rs"
+cargo = "-F mimalloc,mount --git https://github.com/rustic-rs/rustic rustic-rs"
 
 service = "macchanger@enp3s0"
 
