@@ -1,4 +1,4 @@
-My managers for [meta](https://github.com/jullanggit/meta)
+My managers for [atem](https://github.com/jullanggit/atem)
 ## Implemented
 - cargo (using [cargo_install_reconstructor](https://github.com/jullanggit/cargo_install_reconstructor))
 - files (using [dots](https://github.com/jullanggit/dots))
