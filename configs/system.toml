@@ -25,7 +25,7 @@ paru = [
 ]
 
 cargo = [
-  "atem",
+  "--git https://github.com/jullanggit/atem atem",
   "--git https://github.com/jullanggit/cargo_install_reconstructor cargo_install_reconstructor",
   "--git https://github.com/jullanggit/dots dots",
   "-F git --git https://github.com/Morganamilo/paru paru",
