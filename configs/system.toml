@@ -46,9 +46,9 @@ files = [
   "/etc/pacman.conf",
   "/etc/pacman.d/mirrorlist",
   "/etc/systemd/resolved.conf",
-  "{hostname}/home/julius/.ssh",
-  "/home/julius/.config/dots",
-  "/home/julius/.config/paru/paru.conf",
+  "{hostname}/{home}/.ssh",
+  "/{home}/.config/dots",
+  "/{home}/.config/paru/paru.conf",
 ]
 
 files_copy = [

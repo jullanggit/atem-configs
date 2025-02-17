@@ -34,7 +34,7 @@ paru = [
 service = "gdm"
 
 files = [
-  "{hostname}/home/julius/.config/dconf",
-  "/home/julius/.local/share/authenticator",
-  "/home/julius/.local/share/gnome-shell/extensions",
+  "{hostname}/{home}/.config/dconf",
+  "/{home}/.local/share/authenticator",
+  "/{home}/.local/share/gnome-shell/extensions",
 ]

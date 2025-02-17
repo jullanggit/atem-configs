@@ -38,4 +38,4 @@ rustup_component = [
   "rustfmt",
 ]
 
-files = ["/home/julius/.cargo/config.toml"]
+files = ["/{home}/.cargo/config.toml"]

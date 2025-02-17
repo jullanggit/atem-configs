@@ -11,9 +11,9 @@ cargo = [
 ]
 
 files = [
-  "/home/julius/Code",
-  "/home/julius/.config/nvim",
-  "/home/julius/.config/jj/config.toml",
-  "/home/julius/.config/zed",
-  "/home/julius/.gitconfig",
+  "/{home}/Code",
+  "/{home}/.config/nvim",
+  "/{home}/.config/jj/config.toml",
+  "/{home}/.config/zed",
+  "/{home}/.gitconfig",
 ]

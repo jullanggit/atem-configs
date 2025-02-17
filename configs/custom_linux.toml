@@ -1,9 +1,9 @@
 paru = ["devtools", "lld", "llvm", "rust-bindgen"]
 
 files = [
-  "/home/julius/linux/pc",
-  "/home/julius/linux/laptop",
-  "/home/julius/linux/PKGBUILD",
-  "/home/julius/linux/.config.minimal.pc",
-  "/home/julius/linux/.config.minimal.laptop",
+  "/{home}/linux/pc",
+  "/{home}/linux/laptop",
+  "/{home}/linux/PKGBUILD",
+  "/{home}/linux/.config.minimal.pc",
+  "/{home}/linux/.config.minimal.laptop",
 ]

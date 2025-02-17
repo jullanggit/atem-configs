@@ -41,10 +41,10 @@ files = [
   "/etc/rustic",
   "/etc/locale.gen",
   "/etc/ssh/sshd_config",
-  "/home/julius/Documents",
-  "/home/julius/KeePassXcDatabase",
-  "/home/julius/Obsidian",
-  "/home/julius/spotility",
+  "/{home}/Documents",
+  "/{home}/KeePassXcDatabase",
+  "/{home}/Obsidian",
+  "/{home}/spotility",
 ]
 
 files_copy = ["/usr/lib/systemd/system/syncthing@.service"]

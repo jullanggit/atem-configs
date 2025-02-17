@@ -24,10 +24,10 @@ cargo = [
 ]
 
 files = [
-  "/home/julius/.wezterm.lua",
-  "/home/julius/.config/fastfetch/config.jsonc",
-  "/home/julius/.config/fish",
-  "/home/julius/.config/helix",
-  "/home/julius/.config/starship.toml",
+  "/{home}/.wezterm.lua",
+  "/{home}/.config/fastfetch/config.jsonc",
+  "/{home}/.config/fish",
+  "/{home}/.config/helix",
+  "/{home}/.config/starship.toml",
   "/root/.config/fish",
 ]
