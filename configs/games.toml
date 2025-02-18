@@ -18,4 +18,5 @@ files = [
   "/{home}/.config/unity3d",
   "/{home}/.local/share/Balatro",
   "/{home}/.local/share/Celeste",
+  "/{home}/.config/r2modmanPlus-local",
 ]
