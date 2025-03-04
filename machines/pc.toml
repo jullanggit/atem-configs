@@ -11,6 +11,7 @@ imports = [
 paru = [
   "ethtool",
   "intel-ucode",
+  "lvm2",
   "r8125-dkms",
   "spicetify-cli",
   "vial-appimage",

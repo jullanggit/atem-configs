@@ -8,6 +8,7 @@ paru = [
   "starship",
   "ttf-hack",
   "ttf-hack-nerd",
+  "ttf-nerd-fonts-symbols-mono",
   "vim",
   "wl-clipboard",
 ]
