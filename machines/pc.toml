@@ -14,6 +14,7 @@ paru = [
   "r8125-dkms",
   "spicetify-cli",
   "vial-appimage",
+  "wezterm-git",
   "zed-git",
 ]
 

@@ -9,7 +9,6 @@ paru = [
   "ttf-hack",
   "ttf-hack-nerd",
   "vim",
-  "wezterm",
   "wl-clipboard",
 ]
 
