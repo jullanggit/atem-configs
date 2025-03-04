@@ -41,6 +41,7 @@ files = [
   "/etc/rustic",
   "/etc/locale.gen",
   "/etc/ssh/sshd_config",
+  "/{home}/.config/autostart/signal-desktop.desktop",
   "/{home}/Documents",
   "/{home}/KeePassXcDatabase",
   "/{home}/Obsidian",
