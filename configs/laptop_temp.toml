@@ -5,5 +5,4 @@ paru = [
   "lib32-opencl-rusticl-mesa",
   "cachyos-cli-installer-new",
   "evtest",
-  "chromium",
 ]
