@@ -26,9 +26,10 @@ paru = [
 
 cargo = [
   "atem",
-  "--git https://github.com/jullanggit/cargo_install_reconstructor cargo_install_reconstructor",
   "atem-dots",
+  "--git https://github.com/jullanggit/cargo_install_reconstructor cargo_install_reconstructor",
   "-F git --git https://github.com/Morganamilo/paru paru",
+  "--git https://github.com/jullanggit/sleep-timer sleep-timer",
 ]
 
 service = [
@@ -38,7 +39,7 @@ service = [
   "NetworkManager",
   "NetworkManager-dispatcher",
   "NetworkManager-wait-online",
-  "shut-down-at-night.timer",
+  "start_sleep_timer",
   "sshd",
 ]
 
@@ -49,10 +50,10 @@ files = [
   "{hostname}/{home}/.ssh",
   "/{home}/.config/dots",
   "/{home}/.config/paru/paru.conf",
+  "/{home}/.config/sleep-timer",
 ]
 
 files_copy = [
   "/etc/systemd/system/macchanger@.service",
-  "/etc/systemd/system/shut-down-at-night.service",
-  "/etc/systemd/system/shut-down-at-night.timer",
+  "/etc/systemd/system/start_sleep_timer.service",
 ]
