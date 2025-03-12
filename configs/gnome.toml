@@ -28,7 +28,6 @@ paru = [
   "loupe",
   "nautilus",
   "sushi",
-  "totem",
 ]
 
 service = "gdm"

@@ -1,6 +1,3 @@
-cargo = "--git https://github.com/Feel-ix-343/markdown-oxide markdown-oxide"
-
-
 paru = [
   "stylua",              # conform.nvim
   "lua-language-server",
