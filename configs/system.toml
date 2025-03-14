@@ -9,6 +9,7 @@ paru = [
   "linux-firmware",
   "linux-headers",
   "logrotate",
+  "lvm2",
   "man-db",
   "man-pages",
   "mkinitcpio",
