@@ -1,4 +1,4 @@
-imports = ["common", "filesystems/btrfs", "laptop_temp"]
+imports = ["common", "filesystems/btrfs", "laptop_temp", "virtualbox"]
 
 paru = [
   "amd-ucode",
