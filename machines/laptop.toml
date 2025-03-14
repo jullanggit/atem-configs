@@ -4,6 +4,7 @@ paru = [
   "amd-ucode",
   "amdgpu_top-bin",
   "amdvlk",
+  "antimicrox",
   "bindfs",
   "cups",
   "evremap-git",
