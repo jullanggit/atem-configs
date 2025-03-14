@@ -5,4 +5,7 @@ paru = [
   "lib32-opencl-rusticl-mesa",
   "cachyos-cli-installer-new",
   "evtest",
+  "mingw-w64-gcc",
+  "ollama",
+  "gamescope",
 ]
