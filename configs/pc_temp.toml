@@ -4,4 +4,5 @@ paru = [
   "vulkan-nouveau",
   "lib32-vulkan-nouveau",
   "nouveau-fw",
+  "blender",
 ]
