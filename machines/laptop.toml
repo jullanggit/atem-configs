@@ -9,7 +9,6 @@ paru = [
   "cups",
   "evremap-git",
   "foliate",
-  "losslesscut-git",
   # "opencl-amd",
   "snap-pac",
   "sshfs",
