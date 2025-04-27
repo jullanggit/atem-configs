@@ -1,1 +1,6 @@
 paru = ["rnote-git", "xournalpp"]
+cargo = [
+  "typst-cli",
+  "--git https://github.com/Myriad-Dreamin/tinymist tinymist",
+]
+files = "/{home}/.config/xournalpp"
