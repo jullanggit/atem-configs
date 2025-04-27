@@ -7,7 +7,6 @@ imports = [
   "games",
   "gnome",
   "hacking",
-  "latex",
   "linux-custom",
   "nvim",
   "profiling",

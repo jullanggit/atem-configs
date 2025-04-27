@@ -1,8 +1,0 @@
-paru = [
-  "texlive-latex",
-  "texlive-latexextra",
-  "texlive-binextra",
-  "texlive-latexrecommended",
-  "texlive-bibtexextra",
-  "texlive-mathscience",
-]
