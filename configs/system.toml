@@ -36,6 +36,7 @@ cargo = [
 service = [
   "avahi-daemon",
   "avahi-daemon.socket",
+  "cleanup_packages.timer",
   "cronie",
   "NetworkManager",
   "NetworkManager-dispatcher",
@@ -48,6 +49,8 @@ files = [
   "/etc/pacman.conf",
   "/etc/pacman.d/mirrorlist",
   "/etc/systemd/resolved.conf",
+  "/etc/systemd/system/cleanup_packages.timer",
+  "/etc/systemd/system/cleanup_packages.service",
   "{hostname}/{home}/.ssh",
   "/{home}/.config/dots",
   "/{home}/.config/paru/paru.conf",

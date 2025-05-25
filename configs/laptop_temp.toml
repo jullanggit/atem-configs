@@ -8,4 +8,7 @@ paru = [
   "mingw-w64-gcc",
   "ollama",
   "gamescope",
+  "docker",
+  "ideviceinstaller",
+  "jitterbugpair-bin",
 ]

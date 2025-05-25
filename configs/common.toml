@@ -21,7 +21,8 @@ imports = [
 ]
 
 paru = [
-  # "aseprite",
+  "anymex-bin",
+  "blender",
   "davfs2",
   "firefox",
   "keepassxc",
@@ -33,6 +34,7 @@ paru = [
   "syncthing",
   "torbrowser-launcher",
   "vlc",
+  "warp",
 ]
 
 service = "syncthing@julius"

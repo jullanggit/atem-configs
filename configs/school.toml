@@ -1,4 +1,4 @@
-paru = ["rnote-git", "xournalpp"]
+paru = ["geogebra-6-bin", "rnote-git", "xournalpp"]
 cargo = [
   "typst-cli",
   "--git https://github.com/Myriad-Dreamin/tinymist tinymist",
