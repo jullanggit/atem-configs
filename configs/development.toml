@@ -1,4 +1,4 @@
-paru = ["git", "lazygit", "libgit2", "namcap", "neovim", "perf", "strace"]
+paru = ["git", "lazygit", "libgit2", "namcap", "neovim", "zed"]
 
 cargo = [
   "add-license",
@@ -6,6 +6,7 @@ cargo = [
   "git-cliff",
   "hyperfine",
   "jj-cli",
+  "mask",
   "tokei",
   "typos-cli",
 ]

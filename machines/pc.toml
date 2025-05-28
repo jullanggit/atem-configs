@@ -15,10 +15,9 @@ paru = [
   "spicetify-cli",
   "vial-appimage",
   "wezterm-git",
-  "zed-git",
 ]
 
-cargo = "-F mimalloc,mount --git https://github.com/rustic-rs/rustic rustic-rs"
+cargo = "-F mimalloc,mount,tui --git https://github.com/rustic-rs/rustic rustic-rs"
 
 service = "macchanger@enp3s0"
 

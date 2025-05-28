@@ -6,6 +6,7 @@ paru = [
   "helix",
   "shlorem",
   "starship",
+  "trash-cli",
   "ttf-hack",
   "ttf-hack-nerd",
   "ttf-nerd-fonts-symbols-mono",
@@ -17,9 +18,15 @@ cargo = [
   "bat",
   "-F clipboard broot",
   "eza",
+  "fd-find",
+  "presenterm",
   "ripgrep",
+  "ripgrep_all",
   "repgrep",
   "uwuify",
+  # "wiki-tui",
+  "xh",
+  "yazi-fm",
   "zoxide",
 ]
 

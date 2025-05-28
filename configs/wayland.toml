@@ -1,1 +1,12 @@
-paru = ["anyrun-git", "swww", "mako", "xwayland-satellite"]
+paru = [
+  "anyrun-git",
+  "cliphist",
+  "hyprpicker",
+  "mako",
+  "swaylock",
+  "swww",
+  "xwayland-satellite",
+]
+
+files = "/etc/systemd/system/clear_clipboard_history.service"
+service = "clear_clipboard_history"

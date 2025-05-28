@@ -37,6 +37,8 @@ paru = [
   "warp",
 ]
 
+cargo = "ncspot"
+
 service = "syncthing@julius"
 
 files = [

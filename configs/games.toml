@@ -1,4 +1,7 @@
 paru = [
+  # minecraft
+  "badlion-client",
+  # balatro
   "love",
   "lutris",
   "steam-native-runtime",
@@ -18,6 +21,7 @@ files = [
   "/{home}/.local/share/yuzu",
   # Save files
   "/{home}/.config/unity3d",
+  "/{home}/.local/share/Balatro",
   "/{home}/.local/share/Celeste",
   "/{home}/.local/share/love",
   "/{home}/.config/r2modmanPlus-local",

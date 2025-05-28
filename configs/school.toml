@@ -1,6 +1,3 @@
-paru = ["anki", "geogebra-6-bin", "rnote-git", "xournalpp"]
-cargo = [
-  "typst-cli",
-  "--git https://github.com/Myriad-Dreamin/tinymist tinymist",
-]
+paru = ["anki-bin", "geogebra-6-bin", "rnote-git", "xournalpp"]
+cargo = ["typst-cli"]
 files = ["/{home}/.config/xournalpp", "/{home}/.local/share/Anki2"]

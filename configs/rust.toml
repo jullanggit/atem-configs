@@ -9,6 +9,7 @@ cargo = [
   "cargo-expand",
   "cargo-fuzz",
   "cargo-geiger",
+  "cargo-info",
   "cargo-insta",
   "cargo-llvm-lines",
   "cargo-modules",
@@ -21,6 +22,7 @@ cargo = [
   "cargo-wizard",
   "gitoxide",
   "rustfilt",
+  "rusty-man",
 ]
 
 rustup_toolchain = "nightly"

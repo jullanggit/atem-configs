@@ -1,1 +1,1 @@
-paru = ["zfs-dkms-staging-git"]
+paru = ["zfs-dkms-staging-git", "linux-cachyos-zfs"]

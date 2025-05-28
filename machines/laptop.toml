@@ -5,8 +5,11 @@ paru = [
   "amdgpu_top-bin",
   "amdvlk",
   "antimicrox",
+  "batsignal",
   "bindfs",
   "cups",
+  "clight",
+  "clight-gui-git",
   "evremap-git",
   "foliate",
   # "opencl-amd",
@@ -16,7 +19,6 @@ paru = [
   "wezterm",
   "wireless_tools",
   "xf86-video-amdgpu",
-  "zed",
 ]
 
 service = [
