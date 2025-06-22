@@ -6,7 +6,6 @@ paru = [
   "base-devel",
   "coreutils-uutils",
   "cronie",
-  "linux-firmware",
   "linux-headers",
   "logrotate",
   "lvm2",
