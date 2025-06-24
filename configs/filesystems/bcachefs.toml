@@ -5,3 +5,5 @@ files = [
   "bcachefs/etc/snapper/configs",
   "bcachefs/{home}/.cache/paru/diff/grub-git.diff.safe",
 ]
+
+service = ["snapper-timeline.timer", "snapper-cleanup.timer"]
