@@ -28,6 +28,7 @@ paru = [
   "keepassxc",
   "macchanger",
   "obsidian",
+  "pandoc-cli",
   "paruz",
   "smartmontools",
   "spotify",
