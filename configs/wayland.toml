@@ -3,6 +3,7 @@ paru = [
   "cliphist",
   "hyprpicker",
   "mako",
+  "niri",
   "swaylock",
   "swww",
   "xwayland-satellite",
