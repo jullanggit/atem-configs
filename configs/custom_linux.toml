@@ -1,4 +1,11 @@
-paru = ["devtools", "lld", "llvm", "rust-bindgen"]
+paru = [
+  "devtools",
+  "lld",
+  "llvm",
+  "rust-bindgen",
+  "linux-custom",
+  "linux-custom-headers",
+]
 
 files = [
   "/{home}/linux/pc",

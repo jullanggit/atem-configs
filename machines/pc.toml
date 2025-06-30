@@ -1,6 +1,7 @@
 imports = [
   "ai",
   "common",
+  "custom_linux",
   "filesystems/bcachefs",
   "nvidia",
   "pc_temp",

@@ -1,13 +1,11 @@
 imports = [
   # "arch_wiki",
   "communication",
-  "custom_linux",
   "development",
   "filesystems",
   "games",
   "gnome",
   "hacking",
-  "linux-custom",
   "nvim",
   "profiling",
   "rust",
