@@ -1,0 +1,3 @@
+add = "dots add --copy <item>"
+remove = "dots remove <item>"
+list = "dots --silent list --copy <items>"
