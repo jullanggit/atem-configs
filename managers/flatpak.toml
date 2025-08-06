@@ -1,0 +1,4 @@
+add = "flatpak install flathub <items>"
+remove = "flatpak uninstall <items>"
+upgrade = "flatpak update"
+list = "flatpak list --app --columns=application"

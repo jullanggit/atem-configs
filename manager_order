@@ -5,3 +5,4 @@ rustup_component
 rustup_toolchain
 cargo
 service
+flatpak
