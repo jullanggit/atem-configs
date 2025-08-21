@@ -25,6 +25,7 @@ paru = [
   "gnome-tweaks",
   "gnome-usage",
   "gnumeric",
+  "gradience",
   "loupe",
   "nautilus",
   "sushi",

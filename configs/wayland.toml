@@ -1,5 +1,6 @@
 paru = [
   "anyrun-git",
+  "brightnessctl",
   "cliphist",
   "eww-git",
   "hyprpicker",

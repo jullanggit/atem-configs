@@ -24,6 +24,7 @@ paru = [
   "davfs2",
   "firefox",
   "keepassxc",
+  "localsend",
   "macchanger",
   "obsidian",
   "pandoc-cli",
@@ -33,6 +34,7 @@ paru = [
   "syncthing",
   "torbrowser-launcher",
   "vlc",
+  "vlc-plugin-ffmpeg",
   "warp",
 ]
 
