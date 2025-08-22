@@ -22,7 +22,7 @@ cargo = [
   "cargo-wizard",
   "gitoxide",
   "rustfilt",
-  "rusty-man",
+  # "rusty-man",
 ]
 
 rustup_toolchain = "nightly"

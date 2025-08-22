@@ -1,4 +1,8 @@
 paru = ["anki-bin", "geogebra-6-bin", "inkscape", "rnote-git", "xournalpp"]
 cargo = ["typst-cli", "--git https://github.com/jullanggit/anksidian"]
-files = ["/{home}/.config/xournalpp", "/{home}/.local/share/Anki2"]
+files = [
+  "/{home}/.config/xournalpp",
+  "/{home}/.local/share/Anki2",
+  "/{home}/.config/anksidian",
+]
 flatpak = "page.codeberg.lo_vely.Nucleus"
