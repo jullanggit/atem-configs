@@ -41,7 +41,6 @@ service = [
   "NetworkManager",
   "NetworkManager-dispatcher",
   "NetworkManager-wait-online",
-  "start_sleep_timer",
   "sshd",
 ]
 
