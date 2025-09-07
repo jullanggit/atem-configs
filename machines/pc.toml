@@ -30,6 +30,9 @@ files = [
   "{hostname}/etc/default/grub",
   "{hostname}/etc/grub.d/40_custom",
   "{hostname}/etc/modprobe.d/r8169.conf",
+]
+
+files_copy = [
   "{hostname}/etc/systemd/system/backup.timer",
   "{hostname}/etc/systemd/system/backup.service",
 ]
