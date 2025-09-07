@@ -37,7 +37,6 @@ service = [
   "avahi-daemon",
   "avahi-daemon.socket",
   "cleanup_packages.timer",
-  "cronie",
   "NetworkManager",
   "NetworkManager-dispatcher",
   "NetworkManager-wait-online",

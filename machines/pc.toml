@@ -24,10 +24,12 @@ paru = [
 
 cargo = "-F mimalloc,mount,tui --git https://github.com/rustic-rs/rustic rustic-rs"
 
-service = "macchanger@enp3s0"
+service = ["macchanger@enp3s0", "backup.timer"]
 
 files = [
   "{hostname}/etc/default/grub",
   "{hostname}/etc/grub.d/40_custom",
   "{hostname}/etc/modprobe.d/r8169.conf",
+  "{hostname}/etc/systemd/system/backup.timer",
+  "{hostname}/etc/systemd/system/backup.service",
 ]

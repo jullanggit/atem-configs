@@ -27,7 +27,7 @@ paru = [
   "localsend",
   "macchanger",
   "obsidian",
-  "pandoc-cli",
+  "pandoc-bin",
   "paruz",
   "smartmontools",
   "spotify",
