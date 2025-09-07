@@ -1,4 +1,4 @@
-paru = ["git", "jq", "lazygit", "libgit2", "namcap", "neovim", "zed"]
+paru = ["git", "jq", "libgit2", "namcap", "neovim", "zed"]
 
 cargo = [
   "add-license",
