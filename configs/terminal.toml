@@ -23,6 +23,7 @@ cargo = [
   "ripgrep",
   "ripgrep_all",
   "repgrep",
+  "typeman",
   "uwuify",
   # "wiki-tui",
   "xh",
