@@ -2,7 +2,6 @@ paru = ["git", "jq", "libgit2", "namcap", "neovim", "zed"]
 
 cargo = [
   "add-license",
-  "dprint",
   "git-cliff",
   "hyperfine",
   "jj-cli",

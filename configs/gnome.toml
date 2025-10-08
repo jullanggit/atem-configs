@@ -1,11 +1,8 @@
 paru = [
-  "authenticator",
-  "baobab",
   "dconf-editor",
   "evince",
   "extension-manager",
   "file-roller",
-  "fragments",
   "gdm",
   "gnome-backgrounds",
   "gnome-calculator",
