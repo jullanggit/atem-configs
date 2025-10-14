@@ -1,1 +1,2 @@
-paru = ["signal-desktop", "teams"]
+paru = ["signal-desktop"]
+files = ["/{home}/.config/autostart/signal-desktop.desktop"]

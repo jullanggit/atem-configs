@@ -15,7 +15,6 @@ paru = [
   "gnome-logs",
   "gnome-menus",
   "gnome-power-manager",
-  "gnome-session-properties",
   "gnome-shell",
   "gnome-shell-extensions",
   "gnome-system-monitor",

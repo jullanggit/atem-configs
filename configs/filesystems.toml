@@ -1,1 +1,1 @@
-paru = "bcachefs-tools"
+paru = ["bcachefs-dkms", "bcachefs-tools", "cloud-guest-utils"]

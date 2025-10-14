@@ -31,11 +31,13 @@ paru = [
   "paruz",
   "smartmontools",
   "spotify",
+  "svgcleaner",
   "syncthing",
   "torbrowser-launcher",
   "vlc",
   "vlc-plugin-ffmpeg",
   "warp",
+  "zotero",
 ]
 
 cargo = "ncspot"
@@ -46,7 +48,6 @@ files = [
   "/etc/rustic",
   "/etc/locale.gen",
   "/etc/ssh/sshd_config",
-  "/{home}/.config/autostart/signal-desktop.desktop",
   "/{home}/Documents",
   "/{home}/KeePassXcDatabase",
   "/{home}/Obsidian",

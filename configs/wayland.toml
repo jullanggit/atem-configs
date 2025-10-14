@@ -1,5 +1,5 @@
 paru = [
-  "anyrun-git",
+  "anyrun",
   "brightnessctl",
   "cliphist",
   "eww-git",

@@ -5,6 +5,7 @@ paru = [
   "fisher",
   "helix",
   "shlorem",
+  "smem",
   "starship",
   "trash-cli",
   "ttf-hack",
