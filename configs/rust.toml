@@ -3,6 +3,7 @@ paru = ["mold", "rustup", "rust-analyzer"]
 cargo = [
   "bacon",
   "cargo-audit",
+  "cargo-binstall",
   "cargo-bloat",
   "cargo-cache",
   "cargo-deny",
@@ -20,6 +21,7 @@ cargo = [
   "cargo-sweep",
   "cargo-update",
   "cargo-wizard",
+  "dioxus-cli",
   "gitoxide",
   "rustfilt",
   # "rusty-man",

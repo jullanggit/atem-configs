@@ -1,5 +1,5 @@
 paru = ["anki-bin", "geogebra-6-bin", "inkscape", "xournalpp"]
-cargo = ["typst-cli", "--git https://github.com/jullanggit/anksidian"]
+cargo = ["typst-cli", "--git https://github.com/jullanggit/anksidian anksidian"]
 files = [
   "/{home}/.config/xournalpp",
   "/{home}/.local/share/Anki2",
