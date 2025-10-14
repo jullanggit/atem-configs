@@ -1,6 +1,7 @@
 My managers for [atem](https://github.com/jullanggit/atem)
 ## Implemented
 - cargo (using [cargo_install_reconstructor](https://github.com/jullanggit/cargo_install_reconstructor))
+- cargo-binstall
 - files (using [dots](https://github.com/jullanggit/dots))
 - paru
 - rustup components

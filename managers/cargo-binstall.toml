@@ -1,0 +1,8 @@
+add = "cargo binstall --force <item>"
+remove = "cargo uninstall (echo -n '<items>' | rev | cut -d ' ' -f 1 | rev) || true"
+upgrade = "cargo binstall $(jq .name ~/.cargo/binstall/crates-v1.json | sed 's/\\\"\\(.*\\)\\\"/\\1/g')"
+list = "jq .name ~/.cargo/binstall/crates-v1.json | sed 's/\\\"\\(.*\\)\\\"/\\1/g'"                      # Double \ because of toml
+
+# Changed options are treated as seperate items, so adding and then removing them would result in the program being uninstalled
+remove_then_add = true
+items_separator = "\n"

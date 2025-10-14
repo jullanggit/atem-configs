@@ -4,5 +4,6 @@ paru
 rustup_component
 rustup_toolchain
 cargo
+cargo-binstall
 service
 flatpak

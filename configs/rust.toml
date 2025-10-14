@@ -21,12 +21,13 @@ cargo = [
   "cargo-sweep",
   "cargo-update",
   "cargo-wizard",
-  "dioxus-cli",
   "gitoxide",
   "rustfilt",
   # "rusty-man",
   "wild-linker",
 ]
+
+cargo-binstall = "dioxus-cli"
 
 rustup_toolchain = "nightly"
 
