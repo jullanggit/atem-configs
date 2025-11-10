@@ -1,8 +1,6 @@
 imports = ["common", "filesystems/btrfs", "laptop_temp", "virtualbox"]
 
 paru = [
-  "amd-ucode",
-  "amdvlk",
   "antimicrox",
   "batsignal",
   "bindfs",
@@ -10,17 +8,26 @@ paru = [
   "cups",
   "evremap-git",
   "foliate",
-  "linux-firmware-amdgpu",
+  "intel-ucode",
+  "intel-media-driver",
+  "gst-plugin-va",
+  "lib32-vulkan-intel",
+  "lib32-opencl-mesa",
+  "limine",
+  "limine-snapper-sync",
+  "limine-mkinitcpio-hook",
+  "linux-firmware-intel",
   "linux-firmware-realtek",
   "linux-firmware-other",
   "linux-firmware-whence",
-  # "opencl-amd",
+  "opencl-mesa",
   "snap-pac",
   "sshfs",
   "usbguard",
   "wezterm",
   "wireless_tools",
-  "xf86-video-amdgpu",
+  "vulkan-intel",
+  "vpl-gpu-rt",
 ]
 
 service = [

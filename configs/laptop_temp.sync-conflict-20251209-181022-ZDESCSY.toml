@@ -1,5 +1,7 @@
 paru = [
   "ttf-nerd-fonts-symbols-mono",
+  "mesa-git",
+  "lib32-mesa-git",
   "evtest",
   "gamescope",
   "docker",

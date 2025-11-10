@@ -48,10 +48,13 @@ files = [
   "/etc/rustic",
   "/etc/locale.gen",
   "/etc/ssh/sshd_config",
+  "/{home}/.config/environment.d/10-ssh-agent.conf",
   "/{home}/Documents",
   "/{home}/KeePassXcDatabase",
   "/{home}/Obsidian",
   "/{home}/spotility",
+  "/{home}/user-files",
+  "/{home}/server-files",
 ]
 
 files_copy = ["/usr/lib/systemd/system/syncthing@.service"]
