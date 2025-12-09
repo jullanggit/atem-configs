@@ -12,8 +12,12 @@ cargo = [
 
 files = [
   "/{home}/Code",
+  "{hostname}/{home}/.radicle",
   "/{home}/.config/nvim",
+  "/{home}/.config/systemd",
   "/{home}/.config/jj/config.toml",
   "/{home}/.config/zed",
   "/{home}/.gitconfig",
 ]
+
+service-user = "ssh-agent"

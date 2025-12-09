@@ -1,0 +1,3 @@
+add = "systemctl --user enable --now <items>"
+remove = "systemctl --user disable --now <items>"
+list = '''systemctl --user list-unit-files --state=enabled --no-pager --no-legend | awk '$3 == "disabled" {gsub(/\.service$/, "", $1); print $1}' '''

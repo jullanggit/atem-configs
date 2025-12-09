@@ -14,6 +14,7 @@ paru = [
   "intel-ucode",
   "r8125-dkms",
   "spicetify-cli",
+  "update-grub",
   "vial-appimage",
   "wezterm-git",
   "linux-firmware-intel",
