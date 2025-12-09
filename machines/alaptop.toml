@@ -36,6 +36,6 @@ service = [
   "cups.path",
   "cups.socket",
   "evremap",
-  "macchanger@wlp2s0",
+  "macchanger@wlp1s0",
   "usbguard",
 ]

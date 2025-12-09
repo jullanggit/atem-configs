@@ -13,6 +13,7 @@ paru = [
 
 files = [
   "/{home}/Wallpapers",
+  "/{home}/.config/anyrun",
   "/{home}/.config/eww",
   "/{home}/.config/niri",
   "/etc/systemd/system/clear_clipboard_history.service",
