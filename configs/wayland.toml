@@ -11,5 +11,9 @@ paru = [
   "xwayland-satellite",
 ]
 
-files = "/etc/systemd/system/clear_clipboard_history.service"
+files = [
+  "/etc/systemd/system/clear_clipboard_history.service",
+  "/{home}/.config/niri",
+  "/{home}/Wallpapers",
+]
 service = "clear_clipboard_history"
