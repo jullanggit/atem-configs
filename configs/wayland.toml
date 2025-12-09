@@ -12,8 +12,9 @@ paru = [
 ]
 
 files = [
-  "/etc/systemd/system/clear_clipboard_history.service",
-  "/{home}/.config/niri",
   "/{home}/Wallpapers",
+  "/{home}/.config/eww",
+  "/{home}/.config/niri",
+  "/etc/systemd/system/clear_clipboard_history.service",
 ]
 service = "clear_clipboard_history"
