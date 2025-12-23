@@ -14,6 +14,7 @@ paru = [
 ]
 
 files = [
+  "/{home}/ActivityWatchSync",
   "/{home}/Wallpapers",
   "/{home}/.config/anyrun",
   "/{home}/.config/eww",
@@ -21,4 +22,4 @@ files = [
   "/etc/systemd/system/clear_clipboard_history.service",
 ]
 service = "clear_clipboard_history"
-service-user = ["aw-server-rust", "aw-awatcher"]
+service-user = ["aw-server-rust", "aw-awatcher", "aw-sync"]
