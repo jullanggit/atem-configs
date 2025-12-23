@@ -1,4 +1,6 @@
 paru = [
+  "activitywatch-bin",
+  "aw-awatcher",
   "anyrun",
   "brightnessctl",
   "cliphist",
@@ -19,3 +21,4 @@ files = [
   "/etc/systemd/system/clear_clipboard_history.service",
 ]
 service = "clear_clipboard_history"
+service-user = ["aw-server-rust", "aw-awatcher"]
