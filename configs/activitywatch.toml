@@ -1,0 +1,11 @@
+paru = ["activitywatch-bin", "aw-awatcher", "aw-watcher-media-player"]
+files = [
+  "/{home}/ActivityWatchSync",
+  "/{home}/.config/activitywatch/aw-server-rust/config.toml",
+]
+service-user = [
+  "aw-server-rust",
+  "aw-awatcher",
+  "aw-sync",
+  "aw-watcher-media-player",
+]
