@@ -1,3 +1,4 @@
 .stfolder/
 files/
 .stfolder*
+.stignore
