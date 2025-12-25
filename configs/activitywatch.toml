@@ -2,6 +2,7 @@ paru = ["activitywatch-bin", "aw-awatcher", "aw-watcher-media-player"]
 files = [
   "/{home}/ActivityWatchSync",
   "/{home}/.config/activitywatch/aw-server-rust/config.toml",
+  "{hostname}/{home}/.local/share/activitywatch",
 ]
 service-user = [
   "aw-server-rust",

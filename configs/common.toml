@@ -52,4 +52,7 @@ files = [
   "/{home}/spotility",
   "/{home}/user-files",
   "/{home}/server-files",
+  "/{home}/.config/browser",
+  "/{home}/.config/pixel8a",
+  "/{home}/.config/spicetify",
 ]
