@@ -1,0 +1,12 @@
+paru = "syncthing"
+
+service = "syncthing@julius"
+
+files = [
+  "{hostname}/{home}/.local/state/syncthing/config.xml",
+  "{hostname}/{home}/.local/state/syncthing/key.pem",
+  "{hostname}/{home}/.local/state/syncthing/cert.pem",
+  "{hostname}/{home}/.local/state/syncthing/https-key.pem",
+  "{hostname}/{home}/.local/state/syncthing/https-cert.pem",
+]
+files_copy = ["/usr/lib/systemd/system/syncthing@.service"]

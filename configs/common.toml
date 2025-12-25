@@ -12,6 +12,7 @@ imports = [
   "rust",
   "sandboxing",
   "school",
+  "syncthing",
   "system",
   "temp",
   "terminal",
@@ -33,17 +34,12 @@ paru = [
   "smartmontools",
   "spotify",
   "svgcleaner",
-  "syncthing",
   "torbrowser-launcher",
   "vlc",
   "vlc-plugin-ffmpeg",
   "warp",
   "zotero",
 ]
-
-cargo = "ncspot"
-
-service = "syncthing@julius"
 
 files = [
   "/etc/rustic",
@@ -57,5 +53,3 @@ files = [
   "/{home}/user-files",
   "/{home}/server-files",
 ]
-
-files_copy = ["/usr/lib/systemd/system/syncthing@.service"]
